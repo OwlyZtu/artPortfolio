@@ -5,6 +5,8 @@ html
       meta(charset='UTF-8')
       meta(name='viewport' content='width=device-width, initial-scale=1.0')
       link(rel='stylesheet' href='/css/style.css')
+      link(rel='stylesheet' href='/css/stylemain.css')
+      link(rel='stylesheet' href='/css/index.css')
       link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
       link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
       title Portfolio | #{title}
@@ -15,31 +17,42 @@ html
 
     // CONTENT
     block content
-      //- .wrapper_main_art
-      //-   a(href='/Japan')
-      //-     img.main_photo(src='/img/japan.jpg' alt='Art1')
-      //-   a(href='/jossysStag')
-      //-     img.main_photo(src='/img/jossysStag.png' alt='Art2')
-      //-   a(href='/hands222')
-      //-     img.main_photo(src='/img/hands222.png' alt='Art3')
-      //-   a(href='/афіна')
-      //-     img.main_photo(src='/img/афіна.png' alt='Art4')
-      div.wrapperMain
-        div
+      div.wrapper_main
+        div.wrapper_main_content
           h1 Hi, my name is Sonia or you can call me Owly. I'm ukranian artist and programmer.
           h2 All links to my socials here
-          button.linkBtn.btn1 
+          button.linkBtn
             a(href='https://t.me/sonna_sonia') Telegram
-          button.linkBtn.btn2
+          button.linkBtn
             a(href='https://www.twitch.tv/sonna_sonia') Twitch
-          button.linkBtn.btn3
+          button.linkBtn
             a(href='https://www.instagram.com/owly._.nya.ept/') Instagram
-          button.linkBtn.btn4
+          button.linkBtn
             a(href='https://www.instagram.com/owly.ept/') Art Instagram
-          button.linkBtn.btn5
+          button.linkBtn
             a(href='https://t.me/twitch_sonna_sonia') Telegram channel
-        div
-          img.mainImg(src=`/img/owly.nya.ept_147489470_425205012017309_9162463807582429990_n.jpg` alt=`myPhoto`)()
+
+      div.wrapper_main.about_content
+        h1 A little about me
+        p I am a third-year student at the Zhytomyr Polytechnic, majoring in Software Engineering 121. I have been drawing as a hobby since 2014. Now I mostly paint digitally
+
+      div.wrapper_skills
+        div.wrapper_main.skills_content
+          h1 My skills
+          p 2D illustations 
+          p Characters concept art
+          p Posters, book covers
+
+      .wrapper_main
+        h1.exapmple_header Examples 
+        .example_content
+          img.exampleImg(src='/img/вскритись.png' alt='example1')
+          img.exampleImg(src='/img/дівчина спина.png' alt='example2')
+          img.exampleImg(src='/img/афіна.png' alt='example3')
+          img.exampleImg.lessheight(src='/img/ранок.png' alt='example4')
+          img.exampleImg(src='/img/тоша.jpg' alt='example5')
+        button.linkBtn.btnallarts
+            a(href='/allarts') All artworks
 
     // FOOTER
     include _footer

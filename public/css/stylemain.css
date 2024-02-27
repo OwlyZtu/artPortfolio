@@ -1,0 +1,137 @@
+/* MAIN PAGE */
+
+/* FIRST BLOCK */
+body {
+    background-image: url('/img/owly.nya.ept_147489470_425205012017309_9162463807582429990_n.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.wrapper_main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper_main_content {
+    margin: 200px auto;
+    width: 700px;
+    text-align: center;
+    color: #ccc;
+}
+
+.wrapper_main_content h1 {
+    font-size: 40px;
+}
+
+.linkBtn {
+    margin: 20px 20px;
+    background-color: rgba(79, 65, 65, 0.8);
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+.linkBtn a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.linkBtn:hover{
+    background-color: rgb(47, 38, 38);
+}
+
+.header {
+    background-color: rgba(79, 65, 65, 0.8);
+    min-height: 70px;
+}
+
+/* SECOND BLOCK */
+.about_content {
+    margin: 150px auto;
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+    min-height: 50vh;
+}
+
+/* THIRD BLOCK */
+.wrapper_skills {
+    background-color: #777;
+}
+
+.skills_content {
+    background-color: #777;
+    margin: 150px auto;
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+    min-height: 50vh;
+    color: #ccc;
+}
+
+/* FORTH BLOCK */
+.exampleImg {
+    width: 300px
+}
+.lessheight{
+    width: 250px
+}
+.example_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.exapmple_header{
+    margin: 30px auto;
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+}
+.btnallarts{
+    margin: 20px auto;
+    width: 212px;
+}
+.btnallarts a{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+/* FORM */
+form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
