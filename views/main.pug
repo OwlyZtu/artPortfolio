@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    block head
+      meta(charset='UTF-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0')
+      link(rel='stylesheet' href='/css/style.css')
+      link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
+      link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+      title Portfolio | #{title}
+
+  body 
+    // HEADER
+    include _header
+
+    // CONTENT
+    block content
+      //- .wrapper_main_art
+      //-   a(href='/Japan')
+      //-     img.main_photo(src='/img/japan.jpg' alt='Art1')
+      //-   a(href='/jossysStag')
+      //-     img.main_photo(src='/img/jossysStag.png' alt='Art2')
+      //-   a(href='/hands222')
+      //-     img.main_photo(src='/img/hands222.png' alt='Art3')
+      //-   a(href='/афіна')
+      //-     img.main_photo(src='/img/афіна.png' alt='Art4')
+      div.wrapperMain
+        div
+          h1 Hi, my name is Sonia or you can call me Owly. I'm ukranian artist and programmer.
+          h2 All links to my socials here
+          button.linkBtn.btn1 
+            a(href='https://t.me/sonna_sonia') Telegram
+          button.linkBtn.btn2
+            a(href='https://www.twitch.tv/sonna_sonia') Twitch
+          button.linkBtn.btn3
+            a(href='https://www.instagram.com/owly._.nya.ept/') Instagram
+          button.linkBtn.btn4
+            a(href='https://www.instagram.com/owly.ept/') Art Instagram
+          button.linkBtn.btn5
+            a(href='https://t.me/twitch_sonna_sonia') Telegram channel
+        div
+          img.mainImg(src=`/img/owly.nya.ept_147489470_425205012017309_9162463807582429990_n.jpg` alt=`myPhoto`)()
+
+    // FOOTER
+    include _footer
