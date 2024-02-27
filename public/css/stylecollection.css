@@ -1,0 +1,22 @@
+.photo_collection{
+    width: 350px;
+}
+.wrapper_main_art{
+    width: 1400px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 40px;
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; */
+}
+.wrapper_main_art .box{
+    width:100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+.wrapper_main_art .box img{
+    max-width: 100%;
+    border-radius: 15px;
+}
