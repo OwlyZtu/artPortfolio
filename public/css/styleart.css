@@ -1,0 +1,21 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(8deg, rgba(2, 0, 36, 1) 0%, rgba(119, 93, 66, 1) 29%, rgba(92, 107, 110, 1) 100%);
+}
+.header {
+    background-color: rgba(79, 65, 65, 1);
+    min-height: 70px;
+}
+.wraper_view{
+    margin: 30px auto;
+    width: 900px;
+    color: #2d2a2a;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #907d7d;
+    padding: 20px;
+}
+.view_photo{
+    width: 350px;
+}

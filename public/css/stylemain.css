@@ -1,5 +1,8 @@
 /* MAIN PAGE */
-
+.header {
+    background-color: rgba(79, 65, 65, 0.8);
+    min-height: 70px;
+}
 /* FIRST BLOCK */
 body {
     background-image: url('/img/owly.nya.ept_147489470_425205012017309_9162463807582429990_n.jpg');
@@ -46,10 +49,7 @@ body {
     background-color: rgb(47, 38, 38);
 }
 
-.header {
-    background-color: rgba(79, 65, 65, 0.8);
-    min-height: 70px;
-}
+
 
 /* SECOND BLOCK */
 .about_content {

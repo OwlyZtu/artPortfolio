@@ -814,7 +814,7 @@ body {
 }
 
 .footer {
-  background-color: #f7f7f7;
+  background-color: rgba(79, 65, 65, 1);
   padding: 6rem 4rem 3rem 4rem;
   font-size: 1.4rem;
   display: grid;
@@ -823,6 +823,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  color:#ccc
 }
 
 @media only screen and (max-width: 50em) {
@@ -862,7 +863,7 @@ body {
 }
 
 .footer__nav a {
-  color: #777;
+  color: #d5c8c8;
   text-decoration: none !important;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;

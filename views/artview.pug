@@ -5,6 +5,7 @@ html
             meta(charset='UTF-8')
             meta(name='viewport' content='width=device-width, initial-scale=1.0')
             link(rel='stylesheet' href='/css/style.css')
+            link(rel='stylesheet' href='/css/styleart.css')
             link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
             link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
             title Portfolio | #{title}
@@ -17,7 +18,9 @@ html
         block content
             div.wraper_view
                 img.view_photo(src=`/img/${art.imageCover}` alt=`${art.name}`)
-                h1.view_name #{art.name}
+                div
+                    h1.view_name #{art.name}
+                    p.view_name #{art.createdAt.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }
 
     // FOOTER
     include _footer

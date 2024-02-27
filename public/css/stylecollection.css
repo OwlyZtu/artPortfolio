@@ -1,7 +1,18 @@
-.photo_collection{
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(8deg, rgba(2, 0, 36, 1) 0%, rgba(119, 93, 66, 1) 29%, rgba(92, 107, 110, 1) 100%);
+}
+
+.header {
+    background-color: rgba(79, 65, 65, 1);
+    min-height: 70px;
+}
+
+.photo_collection {
     width: 350px;
 }
-.wrapper_main_art{
+
+.wrapper_main_art {
     width: 1400px;
     margin: 20px auto;
     columns: 4;
@@ -11,12 +22,14 @@
     flex-wrap: wrap;
     align-items: center; */
 }
-.wrapper_main_art .box{
-    width:100%;
+
+.wrapper_main_art .box {
+    width: 100%;
     margin-bottom: 10px;
     break-inside: avoid;
 }
-.wrapper_main_art .box img{
+
+.wrapper_main_art .box img {
     max-width: 100%;
     border-radius: 15px;
 }
