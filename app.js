@@ -4,6 +4,7 @@ const path = require('path');
 
 const viewsRouter = require('./routes/viewsRoutes');
 const artRouter = require('./routes/artRoutes');
+const userRouter = require('./routes/userRoutes');
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use((req, res, next) => {
 
 // 3) ROUTS
 app.use('/', viewsRouter);
+app.use('/user', userRouter);
 app.use('/arts', artRouter);
 
 

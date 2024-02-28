@@ -1,0 +1,56 @@
+/* LOGIN PAGE */
+.header {
+    background-color: rgba(79, 65, 65, 1);
+    min-height: 70px;
+}
+.wrapper_login{
+    display: flex;
+    height: 90vh;
+}
+.sign-in-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 190px auto;
+    align-items: center;
+}
+.image_login{
+    width: 80vh;
+
+}
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginBth {
+    background-color: rgba(79, 65, 65, 0.8);
+    padding: 15px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ccc;
+}
+.loginBth:hover{
+    background-color: rgb(47, 38, 38);
+}
+
+button:hover {
+    background-color: #2980b9;
+    /* Button color on hover */
+}
